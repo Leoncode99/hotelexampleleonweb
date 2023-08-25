@@ -30,7 +30,8 @@ a {
   margin: auto;
 }
 
-/*--------------header--------*/
+/*-header-*/
+
 header {
   height: 8vh;
 }
@@ -128,6 +129,7 @@ header ul li a:hover {
 
 /*--------------header--------*/
 /*--------------home--------*/
+
 .home .image img {
   position: absolute;
   top: 0;
@@ -194,17 +196,9 @@ button {
   position: relative;
 }
 
-.home .box .text::after {
-  position: absolute;
-  content: 'H';
-  font-size: 500px;
-  top: -120%;
-  font-weight: bold;
-  opacity: 0.1;
-}
-
 /*--------------home--------*/
 /*--------------book--------*/
+
 .flex {
   display: flex;
 }
